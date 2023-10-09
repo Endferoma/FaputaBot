@@ -151,7 +151,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Commands\Basic.cs" />
+    <Compile Include="Classes\ServerInfo.cs" />
+    <Compile Include="Commands\Wave.cs" />
+    <Compile Include="Commands\Lisener.cs" />
     <Compile Include="Config\JSONReader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
